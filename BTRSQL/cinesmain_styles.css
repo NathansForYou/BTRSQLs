@@ -1,0 +1,254 @@
+ * {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background: #dff;
+}
+
+.search {
+	width: 100%;
+	text-align: center;
+	margin-top: 12.5%;
+}
+
+.logo {
+	font-size: 80px;
+	font-family: "Anders";
+}
+
+.logoshadow {
+    font-size: 80px;
+    font-family: "Anders";
+}
+
+.tagline {
+	margin-top: 30px;
+	font-size: 40px;
+	font-family: "Dense-Regular";
+	color: #d83c3c;
+}
+
+/* .searchbar {
+	margin-top: 30px;
+	width: 30%;
+	border: none;
+	border-radius: 10px;
+	height: 40px;
+	padding-left: 10px;
+	font-family: "Muli";
+}
+
+.searchbar:focus {
+	outline: none;
+	box-shadow: 0 0 2pt 2pt rgba(200,100,100,1);
+}
+
+.btn-action {
+	margin-top: 30px;
+	border: none;
+	background: #a00;
+	color: #fff;
+	font-family: "Dense-Regular";
+	letter-spacing: 1px;
+	font-size:20px;
+	padding: 5px 10px 5px 10px;
+} */
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}
+
+/* Form wrapper styling */
+.form-wrapper {
+    width: 40%;
+    padding: 15px;
+    margin: 30px auto 50px auto;
+}
+
+/* Form text input */
+
+.form-wrapper input {
+    width: 80%;
+    height: 40px;
+    padding: 10px 5px;
+    float: left;   
+    font-family: "Muli";
+    font-size: 1.2vw;
+    background: #fff;
+    border: none;
+    border-radius: 3px 0 0 3px;  
+    z-index: 0;
+    padding-left: 15px;
+    border-top: #d83c3c solid 1px; 
+    border-left: #d83c3c solid 1px; 
+    border-bottom: #d83c3c solid 1px; 
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(150,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}    
+
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 20%;
+    font-family: "Dense-Regular";
+    letter-spacing: 1px;
+    color: #fff;
+    background: #d83c3c;
+    font-size: 1.5vw;
+    border-radius: 0 3px 3px 0;   
+    border-top: #d83c3c solid 1px;  
+    border-right: #d83c3c solid 1px;   
+    border-bottom: #d83c3c solid 1px;    
+    z-index: 1;  
+}   
+  
+.form-wrapper button:hover{		
+    background: #fff;
+    color: #d83c3c;
+    cursor: pointer;
+    font-size: 1.4vw;
+    border: #d83c3c solid 1px;
+}	
+  
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+	outline: 0;   
+}
+
+#main {
+    min-height: 500px;
+    width: 100%;
+}
+
+/*.form-wrapper button:before { //left arrow
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #fff transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before{
+    border-right-color: #d83c3c;
+    cursor: pointer;
+}
+
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}*/    
+
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
+
+.credit {
+    font-family: "Muli";
+    font-size: 12px;
+    margin-top: -40px;
+    height: 10px;
+}
+
+nav {
+    background: #fff;
+    -webkit-box-shadow: 0px 0 8px -2px #000;
+    box-shadow: 10px 0 8px -2px #000;
+}
+
+.divlink{
+    text-align: center;
+}
+
+.divlink:not(:nth-child(2)) {
+    padding-top: 17.5px;
+}
+
+.reglink {
+    font-family: "Dense-Regular";
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.reglink:hover {
+    font-family: "Dense-Regular";
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d83c3c;
+    margin: 0;
+}
+
+.logolink {
+    font-size: 50px;
+    cursor: pointer;
+    font-family: "Anders";
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.logolink:hover {
+    font-size: 50px;
+    cursor: pointer;
+    font-family: "Anders";
+    text-decoration: none;
+    color: #d83c3c;
+    margin: 0;
+}
+
+.info {
+    font-family: "Muli";
+    background: #fff;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#result {
+    display: none;
+    
+}
